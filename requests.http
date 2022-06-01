@@ -1,0 +1,30 @@
+GET http://localhost:3000/players
+
+###
+GET http://localhost:3000/players/1
+
+###
+POST http://localhost:3000/players
+Content-Type: application/json
+
+{
+ "name": "JESS"
+}
+
+
+###
+PATCH http://localhost:3000/players/3
+Content-Type: application/json
+
+{
+ "name": "Jess"
+}
+
+###
+DELETE http://localhost:3000/players/3
+
+###
+POST http://localhost:3000/api/game
+
+
+
